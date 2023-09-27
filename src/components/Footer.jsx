@@ -52,6 +52,7 @@ const Footer = () => {
 					href="https://github.com/gateremark"
 					className="text-[#e2e2e2] text-3xl my-0 mx-[10px] inline-block transition duration-500 ease-in-out hover:translate-y-[-10px] cursor-pointc"
 					target="_blank"
+					rel="noreferrer"
 				>
 					{" "}
 					<IoLogoGithub />{" "}
@@ -60,6 +61,7 @@ const Footer = () => {
 					href="https://twitter.com/gatere_mark"
 					className="text-[#e2e2e2] text-3xl my-0 mx-[10px] inline-block transition duration-500 ease-in-out hover:translate-y-[-10px] cursor-pointc"
 					target="_blank"
+					rel="noreferrer"
 				>
 					{" "}
 					<IoLogoTwitter />{" "}
@@ -68,6 +70,7 @@ const Footer = () => {
 					href="https://www.linkedin.com/in/gateremark/"
 					className="text-[#e2e2e2] text-3xl my-0 mx-[10px] inline-block transition duration-500 ease-in-out hover:translate-y-[-10px] cursor-pointc"
 					target="_blank"
+					rel="noreferrer"
 				>
 					{" "}
 					<IoLogoLinkedin />{" "}
@@ -76,6 +79,7 @@ const Footer = () => {
 					href="https://www.instagram.com/gateremark/"
 					className="text-[#e2e2e2] text-3xl my-0 mx-[10px] inline-block transition duration-500 ease-in-out hover:translate-y-[-10px] cursor-pointc"
 					target="_blank"
+					rel="noreferrer"
 				>
 					{" "}
 					<IoLogoInstagram />{" "}
@@ -114,7 +118,11 @@ const Footer = () => {
 				&copy; 2023 HomeTopia | All Rights Reserved | by{" "}
 				<span className="hover:text-[#001f41] transition duration-300 ease-in-out">
 					{" "}
-					<a href="https://gateremark.vercel.app/" target="_blank">
+					<a
+						href="https://gateremark.vercel.app/"
+						target="_blank"
+						rel="noreferrer"
+					>
 						@gateremark
 					</a>{" "}
 				</span>
