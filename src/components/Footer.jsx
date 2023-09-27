@@ -119,7 +119,7 @@ const Footer = () => {
 				<span className="hover:text-[#001f41] transition duration-300 ease-in-out">
 					{" "}
 					<a
-						href="https://gateremark.vercel.app/"
+						href="https://bit.ly/gatere"
 						target="_blank"
 						rel="noreferrer"
 					>
