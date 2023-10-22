@@ -157,7 +157,7 @@ const Navbar = () => {
 					</ul>
 				</div>
 			</header>
-			{darkMode ? (
+			{/* {darkMode ? (
 				<FiSun
 					className=" text-[#e2e2e2] absolute right-6 top-3 p-1 text-3xl shadow-glowdm rounded cursor-pointc"
 					onClick={() => setdarkMode((prevState) => !prevState)}
@@ -167,7 +167,7 @@ const Navbar = () => {
 					className=" text-[#000] absolute right-6 top-3 p-1 text-3xl shadow-glowlm rounded cursor-pointc"
 					onClick={() => setdarkMode((prevState) => !prevState)}
 				/>
-			)}
+			)} */}
 
 			{/* Mobile View */}
 		</div>
